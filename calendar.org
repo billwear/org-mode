@@ -1,0 +1,396 @@
+* calendar
+** TODO MAAS friday standup
+SCHEDULED: <2023-12-08 Fri 09:30 +2w>
+
+*** TODO Explore Work Products
+SCHEDULED: <2024-01-03 Wed .+1d> DEADLINE: <2024-08-29 Thu 18:00>
+
+**** TODO Learn Juju
+
+**** TODO Learn LXD/LXC
+
+**** TODO Learn Ubuntu Server
+
+**** TODO Learn Snap and Snapcraft
+
+**** TODO Learn Ubuntu Core
+
+**** TODO Learn MicroK8s
+
+**** TODO Learn Ubuntu Desktop
+
+**** TODO Learn Landscape
+
+**** TODO Learn Anbox Cloud
+
+**** TODO Learn Canonical OpenStack
+
+**** TODO Learn Ubuntu Pro
+
+** TODO MAAS friday standup
+SCHEDULED: <2023-12-08 Fri 09:30 +2w>
+
+** TODO take baby to the vet
+SCHEDULED: <2024-11-02 Sat +1y>
+
+** TODO Explore Work Products
+SCHEDULED: <2024-01-03 Wed .+1d> DEADLINE: <2024-08-29 Thu 18:00>
+
+*** TODO Learn Juju
+
+*** TODO Learn LXD/LXC
+
+*** TODO Learn Ubuntu Server
+
+*** TODO Learn Snap and Snapcraft
+
+*** TODO Learn Ubuntu Core
+
+*** TODO Learn MicroK8s
+
+*** TODO Learn Ubuntu Desktop
+
+*** TODO Learn Landscape
+
+*** TODO Learn Anbox Cloud
+
+*** TODO Learn Canonical OpenStack
+
+*** TODO Learn Ubuntu Pro
+
+** TODO adam's birthday
+SCHEDULED: <2024-11-19 Tue 04:00 +1y>
+
+** TODO [#E] send present for adam's birthday
+SCHEDULED: <2024-11-14 Thu +1y>
+
+** TODO hey, y'all                                                :MAAS_TEAM:
+SCHEDULED: <2023-12-02 Sat 09:00 +1d>
+
+** TODO Log Off Of Mattermost                                     :Canonical:
+SCHEDULED: <2023-12-01 Fri 18:00 +1d>
+
+** TODO Prioritize My Workday                                     :Canonical:
+SCHEDULED: <2023-11-28 Tue 08:30 +1d>
+
+** TODO Mark Out For Lunch, If Online With Canonical              :Canonical:
+SCHEDULED: <2023-11-28 Tue 13:00 .+1d>
+
+** TODO Log Back In From Lunch                                    :Canonical:
+SCHEDULED: <2023-11-28 Tue 14:00 +1d>
+
+
+** TODO teach sunday school
+SCHEDULED: <2023-12-03 Sun 09:45 +1w>
+
+** TODO attend morning worship
+SCHEDULED: <2023-12-03 Sun 11:00 +1w>
+
+** TODO attend choir practice
+SCHEDULED: <2023-12-03 Sun 16:30 +1w>
+
+** TODO attend evening worship
+SCHEDULED: <2023-12-03 Sun 18:00 +1w>
+
+** TODO colonoscopy
+SCHEDULED: <2023-12-18 Mon 08:30>
+
+** TODO follow-up from colonoscopy
+SCHEDULED: <2024-01-02 Tue 15:20>
+** TODO reload my med box
+SCHEDULED: <2023-12-09 Sat +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-12-04 Mon 08:39]
+:END:
+
+- State "DONE"       from "TODO"       [2023-12-04 Mon 08:39]
+
+** TODO Christmas vacation 04:00
+<%%(diary-block 12 16 2023 01 01 2024)>
+
+
+** Town Hall                                                      :Canonical:
+SCHEDULED: <2023-12-07 Thu 11:00-12:15>
+:PROPERTIES:
+:ETag:     "3402190763894000"
+:HANGOUTS: [[https://meet.google.com/iuw-pvhy-pco][Join Hangouts Meet]]
+:calendar-id: bill.wear@canonical.com
+:entry-id: 2753vn1ef86gkqv0tn5c1a7bhu/bill.wear@canonical.com
+:org-gcal-managed: gcal
+:END:
+:org-gcal:
+<p dir="ltr">The next All Hands Town Hall will be held on Thursday 7th December.</p><br><p dir="ltr">We will hold two sessions to account for time zones, and these will be recorded and made available for those who cannot attend.  </p><br><p dir="ltr">The calls will be held at: </p><br><p dir="ltr">1. Session 1</p><p dir="ltr">09:00 UK / GMT</p><p dir="ltr">10:00  CET</p><p dir="ltr">17:00 Beijing/Taipei </p><p dir="ltr">22:00  Auckland  </p><br><p dir="ltr">2.Session 2</p><p dir="ltr">09:00  US Pacific Time </p><p dir="ltr">12:00  US Eastern Time </p><p dir="ltr">17:00  UK / GMT</p><p dir="ltr">18:00-19:00 CET</p><p dir="ltr">06:00  Auckland (Friday 8th December)</p><br><p dir="ltr">We will be using Google Meet for the presentation and our <a href="https://chat.canonical.com/canonical/channels/town-hall-qa"><u>Mattermost Town Hall channel</u></a> for chat/Q&amp;A.</p><br><p dir="ltr">These will be added to the Canonical events calendar and everyone has will be invited, you can attend whichever is most convenient to you.  </p><br><p dir="ltr">If you have any questions about logistics or joining these calls, please contact the EA team. </p>
+:END:
+** DONE MAAS and the Future of the Data Centre                    :MAAS_TEAM:
+SCHEDULED: <2023-11-29 Wed 09:00-09:30>
+:PROPERTIES:
+:ETag:     "3402188995622000"
+:HANGOUTS: [[https://meet.google.com/szc-xzro-kbc][Join Hangouts Meet]]
+:calendar-id: bill.wear@canonical.com
+:entry-id: 01m6qrglqhd2l4h9hsfa26oo6j/bill.wear@canonical.com
+:org-gcal-managed: gcal
+:END:
+:LOGBOOK:
+CLOCK: [2023-11-29 Wed 09:00]--[2023-11-29 Wed 09:30] =>  0:30
+:END:
+:org-gcal:
+
+Hi Team,
+During the Engineering Sprint in Riga we talked about MAAS in the context of a modern data centre. Cedric and Benjamin suggested to have this short follow up to talk about MAAS positioning in that space, and a vision for the future. Cedric will ask Benjamin to prepare a view from networking perspective. This session is to start painting that vision, surface ideas and look forward to making MAAS a data-centre-defining product.
+:END:
+
+** TODO Adam / Bill 1:1                                           :MAAS_TEAM:
+SCHEDULED: <2023-12-06 Wed 08:00-08:25 +1w>
+:PROPERTIES:
+:ETag:     "3401494327820000"
+:HANGOUTS: [[https://meet.google.com/qqb-udvq-kod][Join Hangouts Meet]]
+:calendar-id: bill.wear@canonical.com
+:entry-id: t1d8q2n8aisl8cqqsan7opucjb_20231129T140000Z/bill.wear@canonical.com
+:org-gcal-managed: gcal
+:LAST_REPEAT: [2023-11-29 Wed 12:55]
+:END:
+- State "DONE"       from "TODO"       [2023-11-29 Wed 12:55]
+:LOGBOOK:
+CLOCK: [2023-11-29 Wed 08:00]--[2023-11-29 Wed 08:30] =>  0:30
+:END:
+:org-gcal:
+:END:
+
+** TODO Pulse Retro                                               :MAAS_TEAM:
+SCHEDULED: <2023-12-05 Tue 09:00-09:25 +2w>
+:PROPERTIES:
+:ETag:     "3400988710402000"
+:HANGOUTS: [[https://meet.google.com/ogi-cazn-xwv][Join Hangouts Meet]]
+:calendar-id: bill.wear@canonical.com
+:entry-id: aqh5ppqvms2sisd25u3k956eee_20231205T150000Z/bill.wear@canonical.com
+:org-gcal-managed: gcal
+:END:
+:org-gcal:
+
+<a href="https://www.retrotool.app/maas-team-3">https://www.retrotool.app/maas-team-</a>23-$PULSE_ID
+:END:
+
+** Out of office
+SCHEDULED: <2023-12-16 Sat 00:00>--<2024-01-02 Tue 00:00>
+:PROPERTIES:
+:ETag:     "3401494306678000"
+:calendar-id: bill.wear@canonical.com
+:entry-id: c5gm2chi68s62bb261j66b9k68smabb1cgo38bb1ckojep1lc4q6ap1p68/bill.wear@canonical.com
+:org-gcal-managed: gcal
+:END:
+:org-gcal:
+:END:
+** TODO MAAS Team Weekly                                          :MAAS_TEAM:
+SCHEDULED: <2023-12-04 Mon 10:30-11:30 +1w>
+:PROPERTIES:
+:ETag:     "3397361977912000"
+:HANGOUTS: [[https://meet.google.com/oeh-ifum-wfy][Join Hangouts Meet]]
+:calendar-id: bill.wear@canonical.com
+:entry-id: 1225ovu59bid4dceu0h5a563jf/bill.wear@canonical.com
+:org-gcal-managed: gcal
+:END:
+:LOGBOOK:
+CLOCK: [2023-11-27 Mon 09:30]--[2023-11-27 Mon 10:05] =>  0:35
+:END:
+:org-gcal:
+Weekly MAAS team meeting
+:END:
+
+** TODO MAAS Standup                                              :MAAS_TEAM:
+SCHEDULED: <2023-12-05 Tue 09:30-09:55 +1w>
+:PROPERTIES:
+:ETag:     "3398030942650000"
+:HANGOUTS: [[https://meet.google.com/rks-nkzr-tfp][Join Hangouts Meet]]
+:calendar-id: bill.wear@canonical.com
+:entry-id: 19p1dkg6dihm5pk2bjj8umcubl_20231031T153000Z/bill.wear@canonical.com
+:org-gcal-managed: gcal
+:END:
+:LOGBOOK:
+CLOCK: [2023-11-28 Tue 09:30]--[2023-11-28 Tue 09:56] =>  0:26
+:END:
+:org-gcal:
+<span><span><span><a href="https://warthogs.atlassian.net/jira/software/c/projects/MAASENG/boards/302" id="ow1413" __is_owner="true">JIRA: MAAS-ENG</a>&nbsp;</span></span></span><br><span><span><span>&nbsp;</span></span></span><br><span><span><span>Daily standup for MAAS<br><ul><li>What did you do yesterday?</li><li>Any blockers?</li><li>What will you do today?</li></ul></span></span></span>
+:END:
+
+** TODO MAAS Standup                                              :MAAS_TEAM:
+SCHEDULED: <2023-12-06 Wed 09:30-09:55 +1w>
+:PROPERTIES:
+:ETag:     "3398030942650000"
+:HANGOUTS: [[https://meet.google.com/rks-nkzr-tfp][Join Hangouts Meet]]
+:calendar-id: bill.wear@canonical.com
+:entry-id: 19p1dkg6dihm5pk2bjj8umcubl_20231101T153000Z/bill.wear@canonical.com
+:org-gcal-managed: gcal
+:LAST_REPEAT: [2023-11-29 Wed 12:58]
+:END:
+- State "DONE"       from "TODO"       [2023-11-29 Wed 12:58]
+:LOGBOOK:
+CLOCK: [2023-11-29 Wed 09:30]--[2023-11-29 Wed 10:00] =>  0:30
+:END:
+:org-gcal:
+<span><span><span><a href="https://warthogs.atlassian.net/jira/software/c/projects/MAASENG/boards/302" id="ow1413" __is_owner="true">JIRA: MAAS-ENG</a>&nbsp;</span></span></span><br><span><span><span>&nbsp;</span></span></span><br><span><span><span>Daily standup for MAAS<br><ul><li>What did you do yesterday?</li><li>Any blockers?</li><li>What will you do today?</li></ul></span></span></span>
+:END:
+
+** TODO MAAS Pulse demo                                           :MAAS_TEAM:
+SCHEDULED: <2023-12-15 Fri 10:00-10:40 +2w>
+:PROPERTIES:
+:ETag:     "3398039250474000"
+:HANGOUTS: [[https://meet.google.com/wcx-fith-vpy][Join Hangouts Meet]]
+:calendar-id: bill.wear@canonical.com
+:entry-id: 2a7i2f0v4gjhcv1v04dsc1avgs_20240112T160000Z/bill.wear@canonical.com
+:org-gcal-managed: gcal
+:LAST_REPEAT: [2023-12-01 Fri 10:32]
+:END:
+- State "DONE"       from "TODO"       [2023-12-01 Fri 10:32]
+:LOGBOOK:
+CLOCK: [2023-12-01 Fri 09:30]--[2023-12-01 Fri 10:32] =>  1:02
+:END:
+:org-gcal:
+Pulse Demo
+:END:
+
+** TODO MAAS Standup                                              :MAAS_TEAM:
+SCHEDULED: <2023-12-08 Fri 09:30-09:55 +2w>
+:PROPERTIES:
+:ETag:     "3399235216342000"
+:HANGOUTS: [[https://meet.google.com/rks-nkzr-tfp][Join Hangouts Meet]]
+:calendar-id: bill.wear@canonical.com
+:entry-id: 19p1dkg6dihm5pk2bjj8umcubl_20240105T153000Z/bill.wear@canonical.com
+:org-gcal-managed: gcal
+:END:
+:org-gcal:
+<span><span><span><a href="https://warthogs.atlassian.net/jira/software/c/projects/MAASENG/boards/302" id="ow1413" __is_owner="true">JIRA: MAAS-ENG</a>&nbsp;</span></span></span><br><span><span><span>&nbsp;</span></span></span><br><span><span><span>Daily standup for MAAS<br><ul><li>What did you do yesterday?</li><li>Any blockers?</li><li>What will you do today?</li></ul></span></span></span>
+:END:
+** TODO (Recorded?) Show and Tell Presentation                    :MAAS_TEAM:
+SCHEDULED: <2023-12-07 Thu 09:30-10:00 +1w>
+:PROPERTIES:
+:ETag:     "3371162163600000"
+:HANGOUTS: [[https://meet.google.com/kte-mojf-szz][Join Hangouts Meet]]
+:calendar-id: bill.wear@canonical.com
+:entry-id: 1m6gko5i1bdnhc1dsj2d7fsit9_20231130T143000Z/bill.wear@canonical.com
+:org-gcal-managed: gcal
+:LAST_REPEAT: [2023-11-30 Thu 13:44]
+:END:
+- State "DONE"       from "TODO"       [2023-11-30 Thu 13:44]
+:LOGBOOK:
+CLOCK: [2023-11-30 Thu 09:30]--[2023-11-30 Thu 10:00] =>  0:30
+:END:
+:org-gcal:
+<u></u>Recorded and standup S&amp;T are in this meeting request.<br> <br>See the <a href="https://www.google.com/url?q=https://docs.google.com/spreadsheets/d/1md_Sp9tUmjLy7b9MD2W0yALnQA7HRWJ3MmASVrA-XiQ/edit%23gid%3D0&amp;sa=D&amp;source=calendar&amp;ust=1686013056079596&amp;usg=AOvVaw2Ut0EO8FcMdDB4UkHCDW6O" target="_blank">updated S&amp;T roster</a> to tell which is which.<br><br>We&#39;re doing recorded S&amp;T every <i>two</i> weeks now, giving everyone a chance to go live about twice a year.<u></u><br><u></u> <u></u><br><u></u>NB: Attached is a really <i>bad</i> example of a recorded Show and Tell, as a handy guide to what <i>not</i> to do. <br><u></u>
+:END:
+
+** TODO MAAS Americas TGIF                                        :MAAS_TEAM:
+SCHEDULED: <2023-12-08 Fri 15:30-15:55 +1w>
+:PROPERTIES:
+:ETag:     "3386630555486000"
+:HANGOUTS: [[https://meet.google.com/ozx-bbpp-uza][Join Hangouts Meet]]
+:calendar-id: bill.wear@canonical.com
+:entry-id: jm2dghqvnshebpthj50bqudcni_20231208T213000Z/bill.wear@canonical.com
+:org-gcal-managed: gcal
+:END:
+:org-gcal:
+just trying to have a little friday social get-together with the Americas team, if we can work it in.  i can't see everyone's calendar, for some reason, so i'm not sure if this works.  let's see if we can pull this off!
+:END:
+
+** TODO MAAS Cross Team                                           :MAAS_TEAM:
+SCHEDULED: <2023-12-06 Wed 11:30-11:55 +2w>
+:PROPERTIES:
+:ETag:     "3386989318720000"
+:HANGOUTS: [[https://meet.google.com/ouz-pnoi-scx][Join Hangouts Meet]]
+:calendar-id: bill.wear@canonical.com
+:entry-id: 69im2d1jcdijcb9ic8qj2b9k6kr68bb175ij8bb66gpjgopk65i38pb1cg_20231206T173000Z/bill.wear@canonical.com
+:org-gcal-managed: gcal
+:END:
+:org-gcal:
+MAAS Cross Team meeting:
+
+ - Please add your topics to the agenda (attached) before every meeting.
+ - Please invite people who should be present at the meeting.
+:END:
+** TODO Technical authors' - informal catch-up :ta_cohort:
+SCHEDULED: <2023-11-30 Thu 15:00-15:25 +1w>
+:PROPERTIES:
+:ETag:     "3392563918098000"
+:HANGOUTS: [[https://meet.google.com/rcc-kdtm-ekb][Join Hangouts Meet]]
+:calendar-id: bill.wear@canonical.com
+:entry-id: 37m771gr75v703nkdmolqgm189_20231207T210000Z/bill.wear@canonical.com
+:org-gcal-managed: gcal
+:END:
+:org-gcal:
+:END:
+
+** TODO Technical authors' catch-up (green)                       :ta_cohort:
+SCHEDULED: <2023-12-04 Mon 10:30-11:00 +1w>
+:PROPERTIES:
+:ETag:     "3400184719924000"
+:HANGOUTS: [[https://meet.google.com/rcc-kdtm-ekb][Join Hangouts Meet]]
+:calendar-id: bill.wear@canonical.com
+:entry-id: c64bd94npl066vsrhn4tilc4lb_20231030T163000Z/bill.wear@canonical.com
+:org-gcal-managed: gcal
+:LAST_REPEAT: [2023-11-30 Thu 13:50]
+:END:
+- State "DONE"       from "TODO"       [2023-11-30 Thu 13:50]
+- State "DONE"       from ""           [2023-11-29 Wed 13:13]
+:org-gcal:
+:END:
+
+** TODO Technical authors' catch-up (green)                       :ta_cohort:
+SCHEDULED: <2023-12-07 Thu 10:30-11:00 +1w>
+:PROPERTIES:
+:ETag:     "3400184719924000"
+:HANGOUTS: [[https://meet.google.com/rcc-kdtm-ekb][Join Hangouts Meet]]
+:calendar-id: bill.wear@canonical.com
+:entry-id: c64bd94npl066vsrhn4tilc4lb_20231102T163000Z/bill.wear@canonical.com
+:org-gcal-managed: gcal
+:LAST_REPEAT: [2023-11-30 Thu 13:51]
+:END:
+:LOGBOOK:
+CLOCK: [2023-11-30 Thu 10:30]--[2023-11-30 Thu 11:15] =>  0:45
+:END:
+- State "DONE"       from "TODO"       [2023-11-30 Thu 13:51]
+:org-gcal:
+:END:
+
+** TODO Bill/Daniele 1:1                                          :ta_cohort:
+SCHEDULED: <2023-12-05 Tue 07:30-07:55 +1w>
+:PROPERTIES:
+:ETag:     "3401494324382000"
+:HANGOUTS: [[https://meet.google.com/bxv-pxcg-swo][Join Hangouts Meet]]
+:calendar-id: bill.wear@canonical.com
+:entry-id: s11fg19vtsa9putjtqd4h38qqa_20231128T133000Z/bill.wear@canonical.com
+:org-gcal-managed: gcal
+:LAST_REPEAT: [2023-11-28 Tue 15:36]
+:END:
+- State "DONE"       from "TODO"       [2023-11-28 Tue 15:36]
+:LOGBOOK:
+CLOCK: [2023-11-28 Tue 07:30]--[2023-11-28 Tue 07:55] =>  0:25
+:END:
+:org-gcal:
+:END:
+
+** TODO Docs Office Hours :ta_cohort:
+SCHEDULED: <2023-12-06 Wed 10:00-11:00 +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-11-29 Wed 12:58]
+:END:
+:LOGBOOK:
+CLOCK: [2023-11-29 Wed 10:00]--[2023-11-29 Wed 11:00] =>  1:00
+:END:
+Regular update meeting for work pertaining to the Style Guide/Vale automation. Unlikely to take the full amount of time! Notes will be taken in the attached doc for you to keep track etc.
+** TODO Docs SIG - Style Guide/Vale :ta_cohort:
+SCHEDULED: <2023-12-06 Wed 11:00-11:45 +2w>
+:PROPERTIES:
+:ETag:     "3402188767570000"
+:HANGOUTS: [[https://meet.google.com/rvo-rbsf-iuh][Join Hangouts Meet]]
+:calendar-id: bill.wear@canonical.com
+:entry-id: 4kbama38l3l2oc273d28dul6l6_20231129T170000Z/bill.wear@canonical.com
+:org-gcal-managed: gcal
+:LAST_REPEAT: [2023-11-29 Wed 12:58]
+:END:
+:LOGBOOK:
+CLOCK: [2023-11-29 Wed 11:00]--[2023-11-29 Wed 11:30] =>  0:30
+:END:
+- State "DONE"       from "TODO"       [2023-11-29 Wed 12:58]
+:org-gcal:
+
+Regular update meeting for work pertaining to the Style Guide/Vale automation. Unlikely to take the full amount of time! Notes will be taken in the attached doc for you to keep track etc.
+:END:

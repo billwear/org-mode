@@ -1,0 +1,30 @@
+* MOTD
+Fri Dec 08 07:44:13 AM CST 2023 (1702043053)
+Today is Boomtime, the 50th day of The Aftermath in the YOLD 3189
+Celebrate Afflux
+You have a deep appreciation of the arts and music.
+
+* morning routines
+- [ ] feed baby, brb
+- [ ] fix couch
+- [ ] measure and record vitals
+- [ ] meds, insulin, nasal sprays
+- [ ] shower, shave, lavage, dress
+- [ ] clean litter box
+- [ ] breakfast
+
+* mid-day routines
+- [ ] pre-lunch bsr
+- [ ] lunch
+- [ ] brush teeth after lunch
+- [ ] mailbox, trash, and walk
+- [ ] org-pulse 
+- [ ] gobear
+
+* evening routines
+- [ ] balance accounts, pay bills
+- [ ] website
+- [ ] evening lavage
+- [ ] brush my teeth
+- [ ] evening meds
+

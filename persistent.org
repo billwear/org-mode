@@ -1,0 +1,1663 @@
+* timeblocking
+** standing meetings
+| day   | tacohort | maasteam | canonical |
+|-------+----------+----------+-----------|
+| mon   |       30 |       60 |           |
+| tue   |       30 |       60 |        60 |
+| wed   |       60 |       90 |           |
+| thu   |       30 |       30 |           |
+| fri   |          |       60 |           |
+|-------+----------+----------+-----------|
+| total |      2.5 |        5 |         1 |
+#+TBLFM: @7$2=vsum(@2$2..@6$2)/60::@7$3=vsum(@2$3..@6$3)/60::@7$4=vsum(@2$4..@6$4)/60
+** timeblocking goals
+| tag       | %age | half-hours | allocated |
+|-----------+------+------------+-----------|
+| tacohort  |  .30 |         25 |        25 |
+| maasteam  |  .60 |         45 |        48 |
+| canonical |  .10 |         10 |           |
+** timeblocking matrix
+|  time | mon       | tue       | wed       | thu       | fri         |
+|-------+-----------+-----------+-----------+-----------+-------------|
+| 07:30 |           | tacohort  |           |           |             |
+| 08:00 | maasteam  | maasteam  | maasteam  | maasteam  | maasteam    |
+| 08:30 | maasteam  | maasteam  | maasteam  | maasteam  | maasteam    |
+| 09:00 | maasteam  | maasteam  | maasteam  | maasteam  | maasteam    |
+| 09:30 | maasteam  | maasteam  | massteam  | maasteam  | maasteam    |
+| 10:00 | maasteam  | maasteam  | maasteam  | maasteam  | maasteam    |
+| 10:30 | tacohort  | tacohort  | tacohort  | tacohort  | tacohort    |
+| 11:00 | tacohort  | tacohort  | tacohort  | tacohort  | tacohort    |
+| 11:30 | tacohort  | tacohort  | split     | tacohort  | tacohort    |
+| 12:00 | tacohort  | tacohort  | tacohort  | tacohort  | T-tacohort  |
+| 12:30 | tacohort  | tacohort  | tacohort  | tacohort  | T-tacohort  |
+| 13:00 | lunch     | lunch     | lunch     | lunch     | lunch       |
+| 13:30 | lunch     | lunch     | lunch     | lunch     | lunch       |
+| 14:00 | maasteam  | maasteam  | maasteam  | maasteam  | T-maasteam  |
+| 14:30 | maasteam  | maasteam  | maasteam  | maasteam  | T-maasteam  |
+| 15:00 | maasteam  | maasteam  | maasteam  | maasteam  | T-maasteam  |
+| 15:30 | maasteam  | maasteam  | maasteam  | maasteam  | T-maasteam  |
+| 16:00 | canonical | canonical | canonical | canonical | T-canonical |
+| 16:30 | canonical | canonical | canonical | canonical | T-canonical |
+* time matrix
+|  time | mon           | tue          | wed             | thu         | fri          |
+|-------+---------------+--------------+-----------------+-------------+--------------|
+| 07:30 |               | dmp 1:1      |                 |             |              |
+| 08:00 | read-thru     | amy 1:1      | adam 1:1        | read-thru   | read-thru    |
+| 08:30 | o'reilly      | amy 1:1      | o'reilly        | o'reilly    | o'reilly     |
+| 09:00 | maasteam      | maasteam     | maasteam        | maasteam    | maasteam     |
+| 09:30 | *team wkly*     | standup      | standup         | S&T         | standup      |
+| 10:00 | twork blog    | twork blog   | twork blog      | twork blog  | twork blog   |
+| 10:30 | ta catchup    | n/w tutorial | n/w tutorial    | ta catchup  | n/w tutorial |
+| 11:00 | N33 NUC       | N33 NUC      | N33 NUC         | N33 NUC     | < training   |
+| 11:30 | N33 NUC       | N33 NUC      | crossteam (1/2) | N33 NUC     | < training   |
+| 12:00 | lunch         | lunch        | lunch           | lunch       | lunch        |
+| 12:30 | lunch         | lunch        | lunch           | lunch       | lunch        |
+| 13:00 | fips deploy   | fips deploy  | fips deploy     | fips deploy | < training   |
+| 13:30 | fips deploy   | fips deploy  | fips deploy     | fips deploy | < training   |
+| 14:00 | *fips deploy*   | fips deploy  | fips deploy     | fips deploy | < training   |
+| 14:30 | *fips deploy*   | fips deploy  | fips deploy     | fips deploy | < training   |
+| 15:00 | *auto OS image* | comm engage  | comm engage     | comm engage | < training   |
+| 15:30 | comm engage   | comm engage  | comm engage     | comm engage | < training   |
+| 16:00 | comm engage   | comm engage  | comm engage     | comm engage | < training   |
+| 16:30 | comm engage   | comm engage  | comm engage     | comm engage | < training   |
+
+* clocktables
+*maas team*
+#+BEGIN: clocktable :maxlevel 2 :match "maasteam" :scope agenda :fileskip0 t :hidefiles t
+#+CAPTION: Clock summary at [2023-12-15 Fri 10:21]
+| Headline                                    |   Time |      |
+|---------------------------------------------+--------+------|
+| *Total time*                                | *2:48* |      |
+|---------------------------------------------+--------+------|
+| Thursday, 12/14/2023                        |   1:07 |      |
+| \_  log onto mattermost                     |        | 0:05 |
+| \_  morning greetings                       |        | 0:09 |
+| \_  10:17 taking a support question from... |        | 0:44 |
+| \_  mm supt question from greece            |        | 0:09 |
+|---------------------------------------------+--------+------|
+| Friday, 12/15/2023                          |   1:41 |      |
+| \_  weekly maas show and tell               |        | 0:30 |
+| \_  log onto ~maas                          |        | 0:15 |
+| \_  prep for pulse demo                     |        | 0:08 |
+| \_  maas pulse demo                         |        | 0:48 |
+#+END:
+
+*ta cohort*
+#+BEGIN: clocktable :maxlevel 2 :match "tacohort" :scope agenda :fileskip0 t :hidefiles t
+#+CAPTION: Clock summary at [2023-12-15 Fri 10:21]
+| Headline           | Time   |      |
+|--------------------+--------+------|
+| *Total time*       | *0:34* |      |
+|--------------------+--------+------|
+| Friday, 12/15/2023 | 0:34   |      |
+| \_  ta catch-up    |        | 0:34 |
+#+END:
+
+*canonical*
+#+BEGIN: clocktable :maxlevel 2 :match "canonical" :scope agenda :fileskip0 t :hidefiles t
+#+CAPTION: Clock summary at [2023-12-15 Fri 10:22]
+| Headline                                     |   Time |      |
+|----------------------------------------------+--------+------|
+| *Total time*                                 | *1:19* |      |
+|----------------------------------------------+--------+------|
+| Thursday, 12/14/2023                         |   0:20 |      |
+| \_  finish 1:1 with amy                      |        | 0:20 |
+|----------------------------------------------+--------+------|
+| Friday, 12/15/2023                           |   0:59 |      |
+| \_  working on emacs setup to improve for... |        | 0:59 |
+#+END:
+
+*time allocation*
+| category  | time | % of total |
+|-----------+------+------------|
+| maas team |   88 |      61.97 |
+| ta cohort |   34 |      23.94 |
+| canonical |   20 |      14.08 |
+|-----------+------+------------|
+| totals    |  142 |      99.99 |
+#+TBLFM: @2$3=(@2$2/@5$2)*100;%2.2f::@3$3=(@3$2/@5$2)*100;%2.2f::@4$3=(@4$2/@5$2)*100;%2.2f::@5$2=vsum(@2$2..@4$2)::@5$3=vsum(@2$3..@4$3)
+
+*time allocation*
+| category  | hours | minutes | %age |
+|-----------+-------+---------+------|
+| maas team |     2 |      48 |   60 |
+| ta cohort |     0 |      34 |   12 |
+| canonical |     1 |      19 |   28 |
+|-----------+-------+---------+------|
+| totals    |     3 |     101 |  100 |
+#+TBLFM: @2$4=(((@2$2*60)+@2$3)/((@5$2*60)+@5$3))*100;%2.0f::@3$4=(((@3$2*60)+@3$3)/((@5$2*60)+@5$3))*100;%2.0f::@4$4=(((@4$2*60)+@4$3)/((@5$2*60)+@5$3))*100;%2.0f::@5$2=vsum(@2$2..@4$2)::@5$3=vsum(@2$3..@4$3)::@5$4=vsum(@2$4..@4$4)
+* food log
+| 2024- | calories |
+|-------+----------|
+| 01-01 |     3086 |
+* vital signs
+| 2024- |  time | temp | pulse | %O2 | BSR | BP     | wt | notes             |
+|-------+-------+------+-------+-----+-----+--------+----+-------------------|
+| 01-01 | 10:58 | 97.5 |    77 |  96 | 154 | 146/83 |    |                   |
+| 01-02 | 07:07 | 95.9 |    66 |  96 | 140 |        |    |                   |
+| 01-04 | 09:08 | 96.5 |    72 |  98 | 130 | 167/91 |    |                   |
+| 01-05 | 10:36 | 95.9 |    78 |  98 | 126 | 170/85 |    | first day of hctz |
+|       |       |      |       |     |     |        |    |                   |
+
+*insulin sliding scale calculation*
+TDD = 50 Lantus + ~40 Humalog
+ISF = 1800/TDD = 1800/90 = 20
+Optimal short acting based on BSR = (BSR-100)/ISF
+| BSR | hu |
+|-----+----|
+| 154 |  3 |
+|     |    |
+#+TBLFM: @2$2=(@2$1-100)/17;%1.0f
+*hu*  = "humalog units"
+*ua*  = "units administered"
+*cua* = "cumulative units administered"
+#+TITLE: todo.org
+relieves journal files of longstanding todo items, to avoid clutter
+* projects
+** 4020
+*** DONE drop off cleaning supplies
+*** TODO [#A] change locks
+SCHEDULED: <2024-01-05 Fri 17:15>
+** open-source
+*** Present Stats on Discourse Forum in Grafana
+
+1. **Project Overview**
+   - Goal and Scope Definition
+   - Estimated Time: 2 hours
+
+2. **Data Collection and Processing**
+   - Identify key statistics for the dashboard.
+   - Extract data from Discourse (since you're familiar with this, it should be quicker).
+   - Format data for Grafana.
+   - Estimated Time: 8 hours
+
+3. **Grafana Dashboard Design**
+   - Set up Grafana (includes time for initial learning).
+   - Design the dashboard layout and select visualizations.
+   - Estimated Time: 12 hours
+
+4. **Integration and Testing**
+   - Integrate data with Grafana.
+   - Test for accuracy and effectiveness.
+   - Ensure dynamic data updating.
+   - Estimated Time: 10 hours
+
+5. **Deployment and Maintenance**
+   - Deploy the dashboard.
+   - Set up maintenance schedules.
+   - Plan for future scalability.
+   - Estimated Time: 6 hours
+
+6. **Documentation and Training**
+   - Document the process and configuration.
+   - Prepare any necessary training materials or guides.
+   - Estimated Time: 8 hours
+
+7. **Review and Feedback**
+   - Collect and analyze user feedback.
+   - Plan for iterative improvements.
+   - Estimated Time: 4 hours
+
+**Total Estimated Time: 50 hours**
+
+*** Community engagement
+Project Plan for "Community Engagement in MAAS Documentation"
+
+1. **Project Overview**
+   - Time: 1 hour
+   - Activities: Define specific objectives, scope, and desired outcomes for community engagement in documentation.
+
+2. **Ease of Contribution**
+   - Time: 3 hours
+   - Activities: Implement a feature to add a feedback/contribution link on each documentation page. This involves identifying the right places for the links and ensuring they're visible and accessible.
+
+3. **Creating a Contribution Guide**
+   - Time: 4 hours
+   - Activities: Develop a clear, step-by-step guide for contributing to MAAS documentation. Given your technical authoring background, you can create a comprehensive guide that is easy to follow.
+
+4. **Community Engagement Initiatives**
+   - Time: 4 hours
+   - Activities: 
+     - Draft and publish a call-to-action for community contributions.
+     - Plan and execute an interview series with active community members.
+     - Develop a Show & Tell video explaining the contribution process.
+
+5. **Monitoring and Encouraging Contributions**
+   - Time: 4 hours
+   - Activities: 
+     - Monitor MAAS Discourse for potential documentation gaps.
+     - Set up a system for MAAS team members to encourage documentation contributions during their support vanguard rotation.
+   
+6. **Review and Feedback**
+   - Time: 2 hours
+   - Activities: Review the implemented strategies, gather feedback from the community, and make initial adjustments based on the feedback.
+
+* doc feedback note template
+[note]
+*Errors or typos? Topics missing? Hard to read? <a href="https://docs.google.com/forms/d/e/1FAIpQLScIt3ffetkaKW3gDv6FDk7CfUTNYP_HGmqQotSTtj2htKkVBw/viewform?usp=pp_url&entry.1739714854=https://maas.io/docs/fresh-installation-of-maas" target = "_blank">Let us know!</a>*
+[/note]
+* temporary
+** DONE alarm
+** DONE set alarm for 06:45
+** DONE set alarm for 06:00
+** TODO [#A] move phone to other end of bed
+SCHEDULED: <2024-01-05 Fri 20:55>
+** TODO create "PROJ" todo classification in project.org
+** TODO go to bed
+SCHEDULED: <2024-01-05 Fri 20:59-21:00>
+** TODO eat a bagel with cream cheese and fruit for breakfast
+SCHEDULED: <2024-01-06 Sat 07:22-07:29 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-05 Fri 10:50]
+:END:
+- State "DONE"       from "TODO"       [2024-01-05 Fri 10:50]
+- State "DONE"       from "TODO"       [2024-01-04 Thu 10:51]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 11:16]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 09:42]
+- State "DONE"       from "TODO"       [2024-01-01 Mon 12:32]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:00]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 15:56]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 15:56]
+:END:
+
+- State "DONE"       from "TODO"       [2023-12-28 Thu 15:13]
+** TODO capture ideas about maas team communication, rotation
+SCHEDULED: <2024-01-05 Fri>
+* todo
+** personal
+*** daily
+**** TODO laundry
+SCHEDULED: <2024-01-05 Fri 13:15-13:25 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-01 Mon 09:45]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:45]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:23]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:22]
+:END:
+
+- State "DONE"       from "TODO"       [2023-12-13 Wed 12:59]
+- State "DONE"       from "TODO"       [2023-12-13 Wed 12:58]
+**** TODO mail
+SCHEDULED: <2024-01-05 Fri 13:10-13:15 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-01 Mon 09:45]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:45]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:23]
+:END:
+
+- State "DONE"       from "TODO"       [2023-12-28 Thu 15:06]
+- State "DONE"       from "TODO"       [2023-12-24 Sun 09:42]
+- State "DONE"       from "TODO"       [2023-12-24 Sun 09:42]
+- State "DONE"       from "TODO"       [2023-12-24 Sun 09:42]
+- State "DONE"       from "TODO"       [2023-12-24 Sun 09:42]
+- State "DONE"       from "TODO"       [2023-12-13 Wed 12:59]
+- State "DONE"       from "TODO"       [2023-12-12 Tue 13:03]
+**** TODO accounts
+SCHEDULED: <2024-01-05 Fri 19:15-19:40 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-01 Mon 09:45]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:45]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:24]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:22]
+:END:
+**** TODO litter
+SCHEDULED: <2024-01-05 Fri 07:20-07:22 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-02 Tue 09:42]
+:END:
+- State "DONE"       from "TODO"       [2024-01-02 Tue 09:42]
+- State "DONE"       from "TODO"       [2024-01-01 Mon 11:46]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:45]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:23]
+:END:
+**** TODO trash
+SCHEDULED: <2024-01-05 Fri 13:01-13:08 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-01 Mon 09:45]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:45]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:23]
+:END:
+
+- State "DONE"       from "TODO"       [2023-12-28 Thu 15:06]
+*** church
+**** TODO sun school
+SCHEDULED: <2024-01-07 Sun 09:45 +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-12-31 Sun 16:04]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+:END:
+**** TODO worship
+SCHEDULED: <2024-01-07 Sun 11:00 +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-12-31 Sun 16:04]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+:END:
+*** hygiene
+**** TODO alarm
+SCHEDULED: <2024-01-06 Sat 06:00-06:05 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-05 Fri 10:26]
+:END:
+- State "DONE"       from "TODO"       [2024-01-05 Fri 10:26]
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:06]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:48]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:46]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 11:31]
+:END:
+**** TODO messages
+SCHEDULED: <2024-01-06 Sat 06:05-06:15 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-05 Fri 10:26]
+:END:
+- State "DONE"       from "TODO"       [2024-01-05 Fri 10:26]
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:06]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:48]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:01]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 11:58]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:46]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 11:31]
+:END:
+**** TODO light on
+SCHEDULED: <2024-01-05 Fri 06:15-06:15 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-04 Thu 09:06]
+:END:
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:06]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:48]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:01]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 11:58]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:46]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 11:31]
+:END:
+**** TODO sit up
+SCHEDULED: <2024-01-06 Sat 06:15-06:16 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-05 Fri 10:26]
+:END:
+- State "DONE"       from "TODO"       [2024-01-05 Fri 10:26]
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:06]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:48]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:01]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 11:58]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:46]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 11:31]
+:END:
+**** TODO > cat tree
+SCHEDULED: <2024-01-06 Sat 06:16-06:16 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-05 Fri 10:26]
+:END:
+- State "DONE"       from "TODO"       [2024-01-05 Fri 10:26]
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:06]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:48]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:35]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:46]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:23]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 11:31]
+:END:
+**** TODO wash bowl
+SCHEDULED: <2024-01-06 Sat 06:16-06:17 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-05 Fri 10:26]
+:END:
+- State "DONE"       from "TODO"       [2024-01-05 Fri 10:26]
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:06]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:48]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:35]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:46]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:23]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 11:31]
+:END:
+**** TODO feed baby
+SCHEDULED: <2024-01-06 Sat 06:17-06:18 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-05 Fri 10:26]
+:END:
+- State "DONE"       from "TODO"       [2024-01-05 Fri 10:26]
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:06]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:48]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:35]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:46]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:23]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 11:31]
+:END:
+**** TODO > bathroom
+SCHEDULED: <2024-01-06 Sat 06:18-06:18 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-05 Fri 10:49]
+:END:
+- State "DONE"       from "TODO"       [2024-01-05 Fri 10:49]
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:06]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:48]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:01]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:35]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:46]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 11:32]
+:END:
+**** TODO brb
+SCHEDULED: <2024-01-06 Sat 06:18-06:21 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-05 Fri 10:49]
+:END:
+- State "DONE"       from "TODO"       [2024-01-05 Fri 10:49]
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:06]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:48]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:01]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:35]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:46]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 11:32]
+:END:
+**** TODO start h2o
+SCHEDULED: <2024-01-05 Fri 06:22-06:22 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-04 Thu 09:06]
+:END:
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:06]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:48]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:01]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:35]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 10:03]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 11:36]
+:END:
+
+:LOGBOOK:
+:END:
+**** TODO brush teeth
+SCHEDULED: <2024-01-05 Fri 06:22-06:24 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-04 Thu 09:06]
+:END:
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:06]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:48]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:01]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:35]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 10:08]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 11:36]
+:END:
+
+:LOGBOOK:
+:END:
+**** TODO shower
+SCHEDULED: <2024-01-05 Fri 06:25-06:40 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-04 Thu 09:06]
+:END:
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:06]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:48]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:01]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:35]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 10:03]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 11:50]
+:END:
+
+:LOGBOOK:
+:END:
+**** TODO water bowl
+SCHEDULED: <2024-01-05 Fri 06:40-06:41 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-03 Wed 07:48]
+:END:
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:48]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:01]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:35]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 10:03]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 11:50]
+:END:
+
+:LOGBOOK:
+:END:
+**** TODO fill lavage
+SCHEDULED: <2024-01-05 Fri 06:41-06:42 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-04 Thu 09:06]
+:END:
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:06]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:48]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:01]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:35]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 10:08]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 11:54]
+:END:
+
+:LOGBOOK:
+:END:
+**** TODO nuke lavage
+SCHEDULED: <2024-01-05 Fri 06:42-06:43 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-04 Thu 09:06]
+:END:
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:06]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:48]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:01]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:35]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 10:08]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 11:54]
+:END:
+
+:LOGBOOK:
+:END:
+**** TODO style hair
+SCHEDULED: <2024-01-05 Fri 06:43-06:45 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-04 Thu 09:06]
+:END:
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:06]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:48]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:01]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:35]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 10:08]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 11:59]
+:END:
+
+:LOGBOOK:
+:END:
+**** TODO shave
+SCHEDULED: <2024-01-05 Fri 06:45-06:50 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-04 Thu 09:06]
+:END:
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:06]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:48]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:01]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:35]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 10:13]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 11:59]
+:END:
+
+:LOGBOOK:
+:END:
+**** TODO towel off
+SCHEDULED: <2024-01-05 Fri 06:50-06:51 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-04 Thu 09:06]
+:END:
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:06]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:49]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:01]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:35]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 10:13]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 11:59]
+:END:
+
+:LOGBOOK:
+:END:
+**** TODO body spray
+SCHEDULED: <2024-01-05 Fri 06:51-06:51 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-04 Thu 09:06]
+:END:
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:06]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:49]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:01]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:35]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 10:13]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 11:59]
+:END:
+
+:LOGBOOK:
+:END:
+**** TODO deodorant
+SCHEDULED: <2024-01-05 Fri 06:52-06:52 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-04 Thu 09:06]
+:END:
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:06]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:49]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:01]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:35]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 10:13]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 11:59]
+:END:
+
+:LOGBOOK:
+:END:
+**** TODO caps back on
+SCHEDULED: <2024-01-05 Fri 06:52-06:52 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-04 Thu 09:06]
+:END:
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:06]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:49]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:01]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:35]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 10:13]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 12:00]
+:END:
+
+:LOGBOOK:
+:END:
+**** TODO trim ear/nose hairs
+SCHEDULED: <2024-01-05 Fri 06:53-06:54 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-04 Thu 09:06]
+:END:
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:06]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:49]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:01]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 10:16]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 12:00]
+:END:
+
+:LOGBOOK:
+:END:
+**** TODO get lavage bottle
+SCHEDULED: <2024-01-05 Fri 06:54-06:55 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-03 Wed 07:49]
+:END:
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:49]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:01]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:35]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 10:16]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 12:02]
+:END:
+
+:LOGBOOK:
+:END:
+**** TODO do morning lavage
+SCHEDULED: <2024-01-05 Fri 06:55-06:57 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-03 Wed 07:49]
+:END:
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:49]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:01]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:35]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 10:16]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 12:02]
+:END:
+
+:LOGBOOK:
+:END:
+**** TODO > bedroom
+SCHEDULED: <2024-01-05 Fri 06:57-06:58 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-04 Thu 09:06]
+:END:
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:06]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:49]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:01]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:36]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 10:42]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 12:03]
+:END:
+
+:LOGBOOK:
+:END:
+*** exercise
+**** TODO record weight
+SCHEDULED: <2024-01-05 Fri 18:58-18:59 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-01 Mon 09:45]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:45]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:23]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 12:04]
+:END:
+
+:LOGBOOK:
+:END:
+**** TODO sweatpants and tshirt
+SCHEDULED: <2024-01-05 Fri 18:59-19:00 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-01 Mon 09:45]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:45]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:23]
+:END:
+
+- State "DONE"       from "TODO"       [2023-12-26 Tue 12:18]
+:LOGBOOK:
+:END:
+**** TODO neck rolls
+SCHEDULED: <2024-01-05 Fri 19:00-19:01 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-01 Mon 09:45]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:45]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:23]
+:END:
+
+- State "DONE"       from "TODO"       [2023-12-26 Tue 12:18]
+:LOGBOOK:
+:END:
+
+stand with your feet shoulder-width apart, and gently roll your head
+in a circular motion to stretch your neck. repeat for 30 seconds.
+**** TODO arm circles
+SCHEDULED: <2024-01-05 Fri 19:01-19:02 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-01 Mon 09:45]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:45]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:24]
+:END:
+
+- State "DONE"       from "TODO"       [2023-12-26 Tue 12:18]
+:LOGBOOK:
+:END:
+
+stand with your feet shoulder-width apart, and extend your arms out to
+the sides. move your arms in small, circular motions, gradually making
+the circles larger. switch directions after 15 seconds, and repeat for
+30 seconds total.
+**** TODO leg swings
+SCHEDULED: <2024-01-05 Fri 19:02-19:03 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-01 Mon 09:45]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:45]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:24]
+:END:
+
+- State "DONE"       from "TODO"       [2023-12-26 Tue 12:18]
+:LOGBOOK:
+:END:
+
+stand with your feet together, and swing one leg back and forth in a
+controlled motion, keeping your core engaged. repeat for 30 seconds,
+then switch sides.
+**** TODO cat-cow stretch
+SCHEDULED: <2024-01-05 Fri 19:03-19:05 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-01 Mon 09:45]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:45]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:24]
+:END:
+
+:LOGBOOK:
+:END:
+
+start on your hands and knees, with your wrists directly under your
+shoulders and your knees under your hips. as you inhale, arch your
+back and lift your head towards the ceiling, creating a curve in your
+spine (cow pose). as you exhale, tuck your chin to your chest and
+round your spine, drawing your belly button towards your spine (cat
+pose). repeat for 1 minute.
+**** TODO mountain pose
+SCHEDULED: <2024-01-05 Fri 19:05-19:06 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-01 Mon 09:45]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:45]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:24]
+:END:
+
+:LOGBOOK:
+:END:
+
+stand tall with your feet hip-width apart, and your arms at your
+sides. engage your core, and stretch the crown of your head towards
+the ceiling. hold for 1 minute.
+**** TODO chair pose
+SCHEDULED: <2024-01-05 Fri 19:06-19:07 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-01 Mon 09:45]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:45]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:24]
+:END:
+
+:LOGBOOK:
+:END:
+
+stand with your feet together, and lower your hips as though you're
+about to sit in an imaginary chair. keep your core engaged, your
+weight in your heels, and your arms raised above your head. hold for
+30 seconds.
+**** TODO downward-facing dog
+SCHEDULED: <2024-01-05 Fri 19:07-19:08 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-01 Mon 09:45]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:45]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:24]
+:END:
+
+:LOGBOOK:
+:END:
+
+start on your hands and knees, with your wrists under your shoulders
+and your knees under your hips. lift your hips up and back, extending
+your arms and legs out in front of you. keep your heels on the ground
+if possible, and hold for 1 minute.
+**** TODO child's pose
+SCHEDULED: <2024-01-05 Fri 19:08-19:09 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-01 Mon 09:45]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:45]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:24]
+:END:
+
+:LOGBOOK:
+:END:
+
+from downward-facing dog, lower your knees to the ground and sit back
+on your heels. stretch your arms out in front of you, and lower your
+forehead to the ground. hold for 1 minute.
+**** TODO jumping jacks
+SCHEDULED: <2024-01-05 Fri 19:09-19:10 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-01 Mon 09:45]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:45]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:24]
+:END:
+
+:LOGBOOK:
+:END:
+
+stand with your feet together, and jump your legs out to the sides
+while raising your arms overhead. jump back to the starting position,
+with your arms at your sides. repeat for 30 seconds.
+**** TODO high knees
+SCHEDULED: <2024-01-05 Fri 19:10-19:11 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-01 Mon 09:45]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:45]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:24]
+:END:
+
+:LOGBOOK:
+:END:
+
+stand with your feet hip-width apart, and run in place, lifting your
+knees up towards your chest. pump your arms at your sides for added
+momentum. repeat for 30 seconds.
+**** TODO squats
+SCHEDULED: <2024-01-05 Fri 19:11-19:12 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-01 Mon 09:45]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:45]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:24]
+:END:
+
+:LOGBOOK:
+:END:
+
+stand with your feet hip-width apart, and lower your hips into a
+squatting position. keep your weight in your heels, your core engaged,
+and your chest lifted. repeat for 30 seconds.
+**** TODO lunges
+SCHEDULED: <2024-01-05 Fri 19:12-19:14 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-01 Mon 09:45]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:45]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:24]
+:END:
+
+:LOGBOOK:
+:END:
+
+stand with your feet hip-width apart, and step one foot forward into a
+lunge position. keep your knee over your ankle, your core engaged, and
+your chest lifted. repeat for 30 seconds on each leg.
+**** TODO push-ups
+SCHEDULED: <2024-01-05 Fri 19:14-19:15 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-01 Mon 09:45]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:45]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:24]
+:END:
+
+:LOGBOOK:
+:END:
+
+start in a plank position, with your hands under your shoulders and
+your toes on the ground. lower your body towards the ground, bending
+your elbows, then push back up to the starting position. repeat for 30
+seconds.
+**** TODO cobra pose
+SCHEDULED: <2024-01-05 Fri 19:15-19:16 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-01 Mon 09:45]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:45]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:24]
+:END:
+
+:LOGBOOK:
+:END:
+
+lie on your stomach with your hands under your shoulders, and lift
+your chest off the ground while keeping your hips and legs on the
+floor. hold for 30 seconds.
+**** TODO butterfly stretch
+SCHEDULED: <2024-01-05 Fri 19:16-19:17 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-01 Mon 09:45]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:45]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:24]
+:END:
+
+:LOGBOOK:
+:END:
+
+sit on the ground with the soles of your feet together, and gently
+press your knees towards the ground while keeping your back
+straight. hold for 30 seconds.
+**** TODO seated forward fold
+SCHEDULED: <2024-01-05 Fri 19:17-19:18 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-01 Mon 09:45]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:45]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:24]
+:END:
+
+:LOGBOOK:
+:END:
+
+sit on the ground with your legs straight out in front of you, and
+stretch forward as far as you can comfortably while keeping your back
+straight. hold for 1 minute.
+**** TODO put away workout clothes
+SCHEDULED: <2024-01-05 Fri 19:18-19:20 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-01 Mon 09:45]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:45]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:24]
+:END:
+
+:LOGBOOK:
+:END:
+*** dressing
+**** TODO underwear
+SCHEDULED: <2024-01-05 Fri 06:59-06:59 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-04 Thu 09:06]
+:END:
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:06]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:49]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 10:42]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+:END:
+
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:01]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:36]
+:LOGBOOK:
+:END:
+**** TODO foot cream/socks
+SCHEDULED: <2024-01-05 Fri 07:00-07:01 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-04 Thu 09:06]
+:END:
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:06]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:49]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 10:42]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+:END:
+
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:01]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:36]
+:LOGBOOK:
+:END:
+**** TODO jeans
+SCHEDULED: <2024-01-05 Fri 07:02-07:02 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-04 Thu 09:06]
+:END:
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:06]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:49]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 10:42]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+:END:
+
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:01]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:36]
+:LOGBOOK:
+:END:
+**** TODO shoes
+SCHEDULED: <2024-01-05 Fri 07:03-07:05 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-04 Thu 09:06]
+:END:
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:06]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:49]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 10:42]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+:END:
+
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:02]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:36]
+:LOGBOOK:
+:END:
+**** TODO record blood pressure
+SCHEDULED: <2024-01-06 Sat 07:05-07:07 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-05 Fri 10:49]
+:END:
+- State "DONE"       from "TODO"       [2024-01-05 Fri 10:49]
+- State "DONE"       from "TODO"       [2024-01-04 Thu 11:24]
+- State "DONE"       from "TODO"       [2024-01-01 Mon 10:59]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+:END:
+
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:02]
+**** TODO t-shirt
+SCHEDULED: <2024-01-05 Fri 07:07-07:07 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-04 Thu 09:06]
+:END:
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:06]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:49]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 10:42]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+:END:
+
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:14]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:36]
+:LOGBOOK:
+:END:
+**** TODO fishing shirt
+SCHEDULED: <2024-01-05 Fri 07:08-07:08 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-04 Thu 09:06]
+:END:
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:06]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:49]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 10:42]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+:END:
+
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:14]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:36]
+:LOGBOOK:
+:END:
+**** TODO stand up + button up
+SCHEDULED: <2024-01-05 Fri 07:09-07:09 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-04 Thu 09:06]
+:END:
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:06]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:49]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 10:42]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+:END:
+
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:14]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:36]
+:LOGBOOK:
+:END:
+*** medical
+**** TODO record temperature
+SCHEDULED: <2024-01-06 Sat 07:10-07:11 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-05 Fri 10:49]
+:END:
+- State "DONE"       from "TODO"       [2024-01-05 Fri 10:49]
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:13]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 09:10]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+- State "DONE"       from "TODO"       [2024-01-01 Mon 11:22]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+:END:
+
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:05]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:41]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 12:18]
+**** TODO record pulse & pulseox
+SCHEDULED: <2024-01-06 Sat 07:12-07:12 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-05 Fri 10:49]
+:END:
+- State "DONE"       from "TODO"       [2024-01-05 Fri 10:49]
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:13]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 09:10]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+- State "DONE"       from "TODO"       [2024-01-01 Mon 11:22]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+:END:
+
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:05]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:41]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 12:18]
+**** TODO record morning bsr
+SCHEDULED: <2024-01-06 Sat 07:13-07:14 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-05 Fri 10:50]
+:END:
+- State "DONE"       from "TODO"       [2024-01-05 Fri 10:50]
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:13]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 09:10]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:16]
+- State "DONE"       from "TODO"       [2024-01-01 Mon 11:22]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+:END:
+
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:05]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:41]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 12:18]
+**** TODO change lancet
+SCHEDULED: <2024-01-06 Sat 07:14-07:14 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-05 Fri 10:50]
+:END:
+- State "DONE"       from "TODO"       [2024-01-05 Fri 10:50]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 09:10]
+- State "DONE"       from "TODO"       [2024-01-01 Mon 11:25]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+:END:
+
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:45]
+**** TODO add test strips
+SCHEDULED: <2024-01-06 Sat 07:14-07:15 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-05 Fri 10:50]
+:END:
+- State "DONE"       from "TODO"       [2024-01-05 Fri 10:50]
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:13]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 09:10]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+:END:
+
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:45]
+**** TODO add alcohol pads
+SCHEDULED: <2024-01-06 Sat 07:15-07:16 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-05 Fri 10:50]
+:END:
+- State "DONE"       from "TODO"       [2024-01-05 Fri 10:50]
+- State "DONE"       from "TODO"       [2024-01-04 Thu 09:13]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 09:10]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+:END:
+
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:45]
+**** TODO take medicines
+SCHEDULED: <2024-01-06 Sat 07:16-07:17 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-05 Fri 10:50]
+:END:
+- State "DONE"       from "TODO"       [2024-01-05 Fri 10:50]
+- State "DONE"       from "TODO"       [2024-01-04 Thu 10:51]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 09:10]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:17]
+- State "DONE"       from "TODO"       [2024-01-01 Mon 11:25]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+:END:
+
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:08]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:45]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 12:22]
+**** TODO do insulin
+SCHEDULED: <2024-01-06 Sat 07:17-07:18 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-05 Fri 10:50]
+:END:
+- State "DONE"       from "TODO"       [2024-01-05 Fri 10:50]
+- State "DONE"       from "TODO"       [2024-01-04 Thu 10:51]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 09:10]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:17]
+- State "DONE"       from "TODO"       [2024-01-01 Mon 11:25]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+:END:
+
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:08]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:45]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 12:22]
+**** TODO change needles
+SCHEDULED: <2024-01-06 Sat 07:18-07:19 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-05 Fri 10:50]
+:END:
+- State "DONE"       from "TODO"       [2024-01-05 Fri 10:50]
+- State "DONE"       from "TODO"       [2024-01-04 Thu 10:51]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 09:10]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+:END:
+
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:46]
+**** TODO do nasal sprays
+SCHEDULED: <2024-01-06 Sat 07:19-07:19 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-05 Fri 10:50]
+:END:
+- State "DONE"       from "TODO"       [2024-01-05 Fri 10:50]
+- State "DONE"       from "TODO"       [2024-01-04 Thu 10:51]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 09:10]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:17]
+- State "DONE"       from "TODO"       [2024-01-01 Mon 11:25]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+:END:
+
+- State "DONE"       from "TODO"       [2023-12-29 Fri 10:08]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 12:48]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 12:22]
+**** TODO bl bsr & bolus
+SCHEDULED: <2024-01-05 Fri 13:08-13:10 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2023-12-31 Sun 16:04]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:04]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:23]
+:END:
+
+- State "DONE"       from "TODO"       [2023-12-28 Thu 15:06]
+**** TODO bs bsr & bolus
+SCHEDULED: <2024-01-05 Fri 18:08-18:10 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-01 Mon 09:45]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:45]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:23]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:22]
+:END:
+*** bedtime
+**** TODO rinse + fill my lavage bottle
+SCHEDULED: <2024-01-05 Fri 20:40-20:43 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-01 Mon 09:45]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:45]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 23:08]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:22]
+:END:
+**** TODO nuke lavage
+SCHEDULED: <2024-01-05 Fri 20:43-20:44 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-01 Mon 09:45]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:45]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 23:08]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:22]
+:END:
+**** TODO get my lavage bottle
+SCHEDULED: <2024-01-05 Fri 20:44-20:45 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-01 Mon 09:45]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:45]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 23:08]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:22]
+:END:
+**** TODO do my evening lavage
+SCHEDULED: <2024-01-05 Fri 20:45-20:52 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-01 Mon 09:45]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:45]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 23:08]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:22]
+:END:
+**** TODO take my evening meds
+SCHEDULED: <2024-01-05 Fri 20:53-20:55 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-01 Mon 09:45]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:45]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 23:08]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:22]
+:END:
+**** TODO brush my teeth before bed
+SCHEDULED: <2024-01-05 Fri 20:55-20:57 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-01 Mon 09:45]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:45]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 23:08]
+- State "DONE"       from "TODO"       [2023-12-29 Fri 17:22]
+:END:
+**** TODO go to bed
+SCHEDULED: <2024-01-05 Fri 20:59-21:00 +1d>
+*** weekly routines
+**** TODO trim fingernails
+**** TODO reload med box
+SCHEDULED: <2024-01-06 Sat +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-12-31 Sun 16:02]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2023-12-31 Sun 16:02]
+:END:
+*** monthly
+**** TODO pay home depot credit card
+SCHEDULED: <2024-02-26 Mon +1m>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-03 Wed 07:52]
+:END:
+- State "DONE"       from "TODO"       [2024-01-03 Wed 07:52]
+- State "DONE"       from "TODO"       [2023-12-27 Wed 10:55]
+** open-source items
+*** bookkeeping
+**** TODO jira card updates                                        :maasteam:
+SCHEDULED: <2024-01-05 Fri +1d>
+**** TODO pulse planning                                          :canonical:
+SCHEDULED: <2024-01-15 Mon +2w>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-04 Thu 08:48]
+:END:
+- State "DONE"       from "TODO"       [2024-01-04 Thu 08:48]
+:LOGBOOK:
+CLOCK: [2024-01-02 Tue 09:44]
+:END:
+*** meetings
+**** TODO weekly maas show and tell                                :maasteam:
+SCHEDULED: <2024-01-11 Thu 09:30-10:00 +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-04 Thu 10:51]
+:END:
+- State "DONE"       from "TODO"       [2024-01-04 Thu 10:51]
+- State "DONE"       from "TODO"       [2023-12-28 Thu 15:18]
+:LOGBOOK:
+CLOCK: [2023-12-14 Thu 09:30]--[2023-12-14 Thu 10:00] =>  0:30
+:END:
+**** TODO ta catch-up                                              :tacohort:
+SCHEDULED: <2024-01-11 Thu 10:30-11:00 +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-04 Thu 10:51]
+:END:
+- State "DONE"       from "TODO"       [2024-01-04 Thu 10:51]
+- State "DONE"       from "TODO"       [2023-12-22 Fri 09:22]
+- State "DONE"       from "TODO"       [2023-12-22 Fri 09:22]
+- State "DONE"       from "TODO"       [2023-12-16 Sat 09:33]
+:LOGBOOK:
+CLOCK: [2023-12-14 Thu 10:30]--[2023-12-14 Thu 11:04] =>  0:34
+:END:
+**** TODO maas pulse demo                                          :maasteam:
+SCHEDULED: <2024-01-12 Fri +2w>
+:LOGBOOK:
+CLOCK: [2023-12-15 Fri 09:30]--[2023-12-15 Fri 10:18] =>  0:48
+:END:
+**** TODO maas team weekly                                         :maasteam:
+SCHEDULED: <2024-01-08 Mon 09:30-10:30 +1w>
+**** TODO ta catch-up                                              :tacohort:
+SCHEDULED: <2024-01-08 Mon 10:30-11:00 +1w>
+**** TODO bill/daniele 1:1                                         :tacohort:
+SCHEDULED: <2024-01-09 Tue 07:30-08:00 +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-02 Tue 09:36]
+:END:
+- State "DONE"       from "TODO"       [2024-01-02 Tue 09:36]
+:LOGBOOK:
+CLOCK: [2024-01-02 Tue 07:30]--[2024-01-02 Tue 07:46] =>  0:25
+:END:
+**** TODO bill/amy 1:1                                             :maasteam:
+SCHEDULED: <2024-01-09 Tue 08:00-09:00 +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-02 Tue 09:36]
+:END:
+- State "DONE"       from "TODO"       [2024-01-02 Tue 09:36]
+:LOGBOOK:
+CLOCK: [2024-01-02 Tue 08:00]--[2024-01-02 Tue 08:36] =>  0:44
+:END:
+**** TODO hey, ya'll
+SCHEDULED: <2024-01-06 Sat 08:00-08:15 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-05 Fri 10:50]
+:END:
+- State "DONE"       from "TODO"       [2024-01-05 Fri 10:50]
+- State "DONE"       from "TODO"       [2024-01-04 Thu 10:51]
+- State "DONE"       from "TODO"       [2024-01-03 Wed 09:10]
+:LOGBOOK:
+CLOCK: [2024-01-02 Tue 08:46]--[2024-01-02 Tue 09:00] =>  0:32
+CLOCK: [2024-01-02 Tue 08:36]--[2024-01-02 Tue 08:46] =>  0:10
+:END:
+**** TODO pulse retro                                              :maasteam:
+SCHEDULED: <2024-01-16 Tue 09:00-09:30 +2w>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-02 Tue 07:18]
+:END:
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:18]
+**** TODO maas standup                                             :maasteam:
+SCHEDULED: <2024-01-09 Tue 09:30-10:00 +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-02 Tue 07:18]
+:END:
+- State "DONE"       from "TODO"       [2024-01-02 Tue 07:18]
+**** TODO maas standup                                             :maasteam:
+SCHEDULED: <2024-01-10 Wed 09:30-10:00 +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-03 Wed 11:16]
+:END:
+- State "DONE"       from "TODO"       [2024-01-03 Wed 11:16]
+**** TODO maas standup                                             :maasteam:
+SCHEDULED: <2024-01-19 Fri 09:30-10:00 +2w>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-05 Fri 10:50]
+:END:
+- State "DONE"       from "TODO"       [2024-01-05 Fri 10:50]
+**** TODO adam/bill 1:1                                            :maasteam:
+SCHEDULED: <2024-01-10 Wed 08:00-08:30 +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-03 Wed 09:10]
+:END:
+- State "DONE"       from "TODO"       [2024-01-03 Wed 09:10]
+**** TODO doc office hours                                         :tacohort:
+SCHEDULED: <2024-01-10 Wed 10:00-11:00 +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-03 Wed 11:16]
+:END:
+- State "DONE"       from "TODO"       [2024-01-03 Wed 11:16]
+**** TODO maas cross-team                                          :maasteam:
+SCHEDULED: <2024-01-17 Wed 11:00-11:30 +2w>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-04 Thu 08:48]
+:END:
+- State "DONE"       from "TODO"       [2024-01-04 Thu 08:48]
+**** TODO maas americas tgif                                       :maasteam:
+SCHEDULED: <2024-01-05 Fri 14:30-15:15 +1w>
+**** DONE backup team meeting for first of year                    :maasteam:
+SCHEDULED: <2024-01-02 Tue 09:00-10:00>
+:LOGBOOK:
+CLOCK: [2024-01-02 Tue 09:00]--[2024-01-02 Tue 09:33] =>  0:33
+:END:

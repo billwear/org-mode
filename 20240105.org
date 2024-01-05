@@ -1,0 +1,27 @@
+* Friday, 01/05/2024
+** TODO rotating staircase priorities & context switching (linkage)
+SCHEDULED: <2024-01-05 Fri>
+** 09:47 list of things i'd like to address this pulse
+*** TODO DISCOURSE STATS >> GRAFANA                                :maasteam:
+*** TODO polish pass on online docs                                :maasteam:
+*** TODO ROUTINE READ-THRU/EDIT PASS ON DOCS                       :maasteam:
+*** TODO continuing Ruthless O'Reilly                              :maasteam:
+*** TODO community engagement                                      :maasteam:
+*** TODO get Minis Forum N33 NUC to deploy with MAAS               :tacohort:
+*** TODO article about teamwork in MAAS                            :tacohort:
+*** TODO networking tutorial                                       :tacohort:
+*** TODO fips-enabled deployments                                  :maasteam:
+*** TODO O11y additonal metrics                                    :maasteam:
+*** TODO automated image testing                                   :maasteam:
+** TODO survey update
+SCHEDULED: <2024-01-05 Fri>
+[note]
+*Errors or typos? Topics missing? Hard to read? <a href="https://docs.google.com/forms/d/e/1FAIpQLScIt3ffetkaKW3gDv6FDk7CfUTNYP_HGmqQotSTtj2htKkVBw/viewform?usp=pp_url&entry.1739714854=https://maas.io/docs/using-network-tags" target = "_blank">Let us know!</a>*
+[/note]
+** TODO regex for h2 headings --> toc entries
+- .*#\(.*\)"><.*">\(.*\)</h.* → - [\2](#\1)
+** 09:52 toast for alberto
+Alberto, as you embark on your /new/ journey, we want to raise our glasses to honor your /remarkable/ contributions over the past 12 years. Your expertise in Python, Django, and Postgres has not only /elevated/ our projects but also /inspired/ us, believe or not. Here's to your /future/ successes, the new adventures awaiting you, and the /unforgettable/ memories you've created here. In French, we say, "sah-TAY eh sook-SAY", or my best shot at /terrible/ italian, "suh-LOO-te eh sook-CHESS-so" - "health and success!"
+
+
+** 17:49 

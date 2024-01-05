@@ -1,0 +1,35 @@
+* Wednesday, 01/03/2024
+** 07:45 up, showered, and dressed
+*** gonna skip shaving when i don't sleep long enough
+
+** 11:16 N33 NUC PXE booting
+*** got the next blog post up, which is progress
+** 14:19 edit pass
+** 14:23 edit pass
+** 14:28 edit pass
+** 14:34 edit pass
+** 14:38 edit pass
+** 14:45 add tag line and feedback link to "Bootstrap MAAS"
+** 14:56 add feedback link to "Try out the MAAS CLI"
+** 15:02 add feedback link to "Create custom images" tutorial
+** 15:05 add feedback link to "Get fancy CLI output" tutorial
+** 15:08 add feedback link to https://maas.io/docs/how-to-guides
+** 15:14 fixing tag line format for "Create custom images" tutorial
+** 15:16 fix tag line format for https://maas.io/docs/get-fancy-cli-output
+** 15:18 fix tag line format for https://maas.io/docs/how-to-guides
+** 15:21 add feedback link, reformat tag line for https://maas.io/docs/setting-up-and-configuring-maas
+** 15:25 update feedback link, reformat tag line for https://maas.io/docs/fresh-installation-of-maas
+** 15:29 add feedback link, reformat tag line for https://maas.io/docs/upgrading-maas
+** 15:34 add feedback link, tag line for https://maas.io/docs/backing-up-maas
+** 15:35 the doc feedback message (change the URL!)
+[note]
+*Errors or typos? Topics missing? Hard to read? <a href="https://docs.google.com/forms/d/e/1FAIpQLScIt3ffetkaKW3gDv6FDk7CfUTNYP_HGmqQotSTtj2htKkVBw/viewform?usp=pp_url&entry.1739714854=https://maas.io/docs/working-with-standard-images" target = "_blank">Let us know!</a>*
+[/note]
+** 15:39 add feedback link, tag line for https://maas.io/docs/networking-management
+** 15:48 add feedback link, tag line for https://maas.io/docs/connecting-maas-networks
+** 15:51 add feedback link, tag line for https://maas.io/docs/enabling-dhcp
+** 15:55 add feedback link, tag line for https://maas.io/docs/using-availability-zones
+** 16:13 fix mangled link for https://maas.io/docs/use-availability-zones
+** 16:23 fix mangled link for https://maas.io/docs/connecting-maas-networks
+** 16:38 add feedback link & tag line, rewrite opening paragraphs for https://maas.io/docs/image-management-and-customisation
+** 16:47 add feedback link & tag line for https://maas.io/docs/working-with-standard-images

@@ -1,0 +1,52 @@
+* Thursday, 01/04/2024
+** DONE [#A] how to get a link to open in a new window in discourse?
+SCHEDULED: <2024-01-03 Wed>
+** DONE move persistent items to non-journal files so they don't get scrambled
+SCHEDULED: <2024-01-03 Wed>
+** 08:42 logging on; sleep schedule is everything that's wrong with me
+obvious last night that my sleep schedule -- both going to bed too late, and waking up to fiddle with my phone -- is nearly everything that's wrong with my mood, attitude, and general deportment. /that/ i'm gonna fix.
+** 10:01 on bind
+For a detailed understanding of the internals of Unix BIND at a very low level, there are a couple of resources that can provide you with in-depth technical insights.
+
+Firstly, the BIND Memory Management Explained article on the ISC website gives a comprehensive overview of memory management in BIND, particularly in version 9.18 compared to earlier versions. This article dives into the changes implemented in BIND 9.18, such as the use of the jemalloc memory allocator and the refactoring of parts that process outgoing DNS messages. It also discusses memory measurement, both internally and externally, providing insights into the tools and methodologies used in BIND for memory management. This can be a great resource for understanding how BIND handles memory, a critical aspect of its internal workings【14†source】.
+
+Secondly, the BIND9 Internals documentation available on the ISC website provides detailed file references for various components of BIND. For instance, the `lib/isc/unix/socket.c` file reference provides specifics on functions related to socket management, including details of various static and non-static functions, their purpose, and how they are integrated into the BIND architecture. Similarly, the `lib/isc/unix/app.c` file reference gives insights into application context management in BIND, detailing the functions used and their roles within the application context【15†source】【16†source】.
+
+These resources are technical and detailed, catering to a deep understanding of BIND's internal mechanisms. They can be particularly useful for someone with a background in computer engineering and a specific interest in DNS systems.
+
+For further details, you can visit the ISC website and explore the BIND 9 documentation: 
+- [BIND Memory Management Explained](https://www.isc.org/blogs/bind-memory-management-explained/)
+- [BIND9 Internals: lib/isc/unix/socket.c File Reference](https://users.isc.org/~each/bind9/doxygen/lib_2isc_2unix_2socket_8c.html)
+- [BIND9 Internals: lib/isc/unix/app.c File Reference](https://users.isc.org/~each/bind9/doxygen/lib_2isc_2unix_2app_8c.html)
+
+** 13:24 add survey link to https://maas.io/docs/mirroring-images-locally
+** 13:31 make tag line bold in https://maas.io/docs/mirroring-images-locally
+** 13:34 add survey link + tag line to https://maas.io/docs/customising-images-for-specific-needs
+** 13:45 fix errant survey link @ https://maas.io/docs/customising-images-for-specific-needs
+** 13:48 add survey link to https://maas.io/docs/integrating-vmware-images
+** 13:50 bold/ital tag line for last
+** 13:54 add survey link, reformat tag line for https://maas.io/docs/deploying-a-real-time-kernel
+** 14:00 add tag line, survey link to https://maas.io/docs/controller-configuration
+** 14:03 add tag line, survey link to https://maas.io/docs/configuring-maas-controllers
+** 14:07 add tag line, survey link to https://maas.io/docs/ensuring-high-availability-for-controllers
+** 14:14 add survey link, reformat tag line for https://maas.io/docs/machine-and-device-management
+** 14:27 rework intro paragraph, adding survey link and tag line, for https://maas.io/docs/making-machines-available-for-deployment
+** 14:31 add tag line, survey link to https://maas.io/docs/customising-machine-specifications
+** 14:38 add tag line, survey link to https://maas.io/docs/deploying-machines-in-maas
+** 14:41 add tag line, survey link to https://maas.io/docs/setting-up-power-drivers
+** 14:46 add survey link, reformat tag line for https://maas.io/docs/virtual-machine-management
+** 14:49 add survy link, tag line to https://maas.io/docs/setting-up-lxd-for-vms
+** 14:53 add survey link, reformat tag line for https://maas.io/docs/configuring-storage-layouts
+** 14:56 add survey link, tag line to https://maas.io/docs/managing-vm-hosts
+** 15:08 fix mangled survey link for https://maas.io/docs/setting-up-lxd-for-vms
+** 15:11 fix mangled survey link for https://maas.io/docs/configuring-storage-layouts
+** 15:13 fix mangled survey link for https://maas.io/docs/managing-vm-hosts
+** 15:16 add survey link, reformat tag line for https://maas.io/docs/overseeing-individual-virtual-machines
+** 15:20 add survey link, tag line to https://maas.io/docs/device-labelling-and-annotations
+** 15:24 add survey link, tag line to https://maas.io/docs/tagging-machines-and-controllers
+** 15:27 add survey link, reformat tag line for https://maas.io/docs/annotating-machine-details
+** 15:37 add survey link, tag line to https://maas.io/docs/using-machine-tags
+** 15:48 add survey link, tag line to https://maas.io/docs/using-controller-tags
+** 15:56 add survey link, tag line, intro para, TOC links to https://maas.io/docs/using-storage-tags
+** 16:03 fix mangled tag line in https://maas.io/docs/using-controller-tags
+** 16:05 add survey link, tag line, intro para, TOC links, and misleveled headings for add survey link, tag line, intro para, TOC links to https://maas.io/docs/using-network-tags
